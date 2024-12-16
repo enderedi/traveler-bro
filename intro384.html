@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+    <title>Traveler Bros. - Your Travel Guide</title>
+    <link rel="icon" href="images/binoculars.png">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <nav class="nav-line">
+        <a href="intro384.html">
+            <h1 class="logo">Traveler Bros.</h1>
+        </a>
+        <ul class="nav-bar">
+            <li><a href="intro384.html">Home</a></li>
+            <li><a href="southwest.html">Western</a></li>
+            <li><a href="midwest.html">Midwest</a></li>
+            <li><a href="concretecities.html">East Coast</a></li>
+            <li><a href="abroad.html">International</a><li>
+        </ul>
+    </nav>
+    <div class="next-img"></div> 
+    <br>
+
+    <h2>Your Next Adventure is Calling</h2>
+
+    <div id="container">
+        <p id="box">Do you enjoy traveling? Do you enjoy experiences? Do you like making long-term memories? 
+        If you answered yes to the following questions, then consider Travel Bros., a post of the cities 
+        we have traveled and like to talk about our own experiences.
+        Throughout the five years of traveling, we have traveled and rated the places we have been to. 
+        Be prepared to be amazed of the places we have been and how they are rated.</p>
+        <p id="box">Please feel free to look around at the different pages as well as the places that are in our bucket list.
+        Welcome to your next adventure! Whether you are looking for inspirational cityscrapes, breathtaking nature wonders, or just some 
+        hidden gems in any place, you've been right all along. This travel guide is here to guide, inspire, inform, and motivate to plan for your 
+        perfect getaway. Experience iconic landmarks, local experiences, and natural wonders!</p>
+        <p id="box">We provide all the right tools you need to explore the world with confidence and inspiration. Ready to explore the world today? Follow along!</p>
+        <p id="box">Please feel free to look aroundat the different pages as well as the places that are in our bucket list.</p> <br> <br>
+
+        <h2>Explore some popular destinations!</h2> <br> <br>
+
+    <div class="fixed">
+        <div class="img-box"><a href="https://www.tripadvisor.com/Tourism-g28932-Hawaii-Vacations.html" target="_blank"><img src="images/hawaii.jpg" alt="palm" width="210px"></a><br>
+            Hawaii - Tropical 
+            <br> <br> When people say and think Hawaii, they immediately picture the right vacation. Vibrant beaches, crystal water, palm trees, calming waves, sunbathing, snorkeling, and 
+            other scenarios. The 50th American state provides diverse and various landscapes, such as volcanoes, mountains to hike on, and scenic waterfalls that provide unforgetable 
+            sounds. The state's 6 islands has different kinds of activities and vibe for adventure and culture.
+        </div>
+        <div class="img-box"><a href="https://www.nps.gov/yose/index.htm" target="_blank"><img src="images/tunnel-view.jpg" alt="national park" width="210px"></a><br>
+            Yosemite National Park - Nature
+            <br> <br> Located in the golden state of California, Yosemite National Park offers giant, granite cliffs and wonderful waterfalls. Two must-see locations in this 
+            park is Half Dome and El Capitan. As a year-round destination, Yosemite offers many different types of activities, but is more enjoyable during the summer.
+            Visitors can go higher in elevation to catch some views of the park. Check before arriving, as some areas request permits.
+        </div>
+        <div class="img-box"><a href="https://www.tripadvisor.com/Tourism-g187791-Rome_Lazio-Vacations.html" target="_blank"><img src="images/venice.jpg" alt="riverwalk" width="210px"></a><br>
+            Italy - Rich Culture
+            <br> <br> It is kind of obvious why Italy is one of the most-visited countries. The country has a lot to offer in terms of cities, such as Rome, Milan, Venice, Florence,
+            and Naples. History is paved in each city, such as historical sites, art masterpieces, and of course its diverse food dishes. Check out the Colosseum
+            in Rome or relax by the Canal Grande in Venice offering alleys and canals. Enjoy pizza and pasta in each region. 
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <p id="box">This link will direct you to TripAdvisor, where you can explore tourist destinations, as well as affordable airfare, stays, and other travel information
+    and events related to your trips. <br> <a href="https://www.tripadvisor.com/" class="click">Click here to go to TripAdvisor!</a></p>
+
+    <p id="box">This link will take you to Expedia, another website to plan your trip all in one website. <br> <a href="https://www.tripadvisor.com/" class="click">Go to Expedia</a></p>
+    
+    <p id="box">Check out this website for their list of current top destinations. <br> <a href="https://www.lonelyplanet.com/" class="click">Explore Lonely Planet</a></p>
+
+    </div>
+    <br>
+    <br>
+
+    <script>
+        const images = [
+            'images/akihabara.jpg',
+            'images/seattle.jpeg',
+            'images/vistachicago.jpg'
+        ];
+
+        let currentIndex = 0;
+        const wrapper = document.querySelector('.next-img');
+
+        function threePictures() {
+            wrapper.style.backgroundImage = `url(${images[currentIndex]})`;
+            currentIndex = (currentIndex + 1) % images.length; 
+        }
+
+        threePictures();
+        setInterval(threePictures, 2500);
+
+    </script>
+</body>
+</html>

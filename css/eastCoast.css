@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgb(220, 223, 226), rgb(153, 218, 194));
+}
+
+.nav-line {
+    background-color: #00af87; 
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    justify-content: space-between;
+}
+
+.nav-bar a {
+    color: white; 
+    text-decoration: none; 
+    padding: 2px 40px; 
+    text-align: center; 
+}
+
+.nav-bar a:hover {
+    background-color: #c6f7c7c0;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img-container img {
+    flex: 1;
+    width: 150px;
+    height: 250px;
+    margin: 40px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column, .right-column {
+    padding: 40px;
+    width: 30%; 
+}
+
+.middle-column {
+    width: 40%; 
+    text-align: center; 
+}
+
+#box {
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(154, 218, 194, 0.7);
+    margin-left: 50px;
+    margin-right:50px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding: 30px;
+    border-radius:10px;
+    width: 650px;
+}
+
+.secure {
+    display: flex;
+    position: relative;
+    width: 520px;
+    overflow: hidden;
+}
+
+.text-area {
+    background-color: white;
+    align-items: center;
+    margin: 0 10px;
+    border: 2px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(1, 0, 0, 0.1);
+}
+
+.text {
+    display: flex;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.arrow {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+}
+
+.link {
+    background-color: #00af87;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back {
+    position: absolute;
+    left: 350px;
+}
+
+.ahead {
+    position: absolute;
+    right: 350px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a h1 {
+    color: #000;;
+}
+
+p, h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}

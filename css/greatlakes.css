@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgb(220, 223, 226), rgb(153, 218, 194));
+}
+
+.nav-line {
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #00af87; 
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar a {
+    color: white; 
+    text-decoration: none; 
+    text-align: center;
+    padding: 2px 40px;
+}
+
+.nav-bar a:hover {
+    background-color: #c6f7c7c0; 
+}
+
+.top-img {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.bot-img {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+} 
+
+.center {
+    background-color: #f1f1f1;
+    max-width: 800px;
+    margin-bottom: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 50px 80px 50px 80px;
+}
+
+.secure {
+    width: 520px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrapper {
+    background-color: white;
+    align-items: center;
+    margin: 0 10px;
+    border: 2px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(1, 0, 0, 0.1);
+}
+
+.area {
+    display: flex;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.arrow {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+}
+
+.back {
+    position: absolute;
+    left: 350px;
+}
+
+.ahead {
+    position: absolute;
+    right: 350px;
+}
+
+.web-link {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px;
+    text-decoration: none; 
+    background-color: #00af87; 
+    color: white; 
+    display: inline-block; 
+    transition: transform 0.2s ease, background-color 0.2s ease; 
+}
+
+.web-link:hover {
+    background-color: #01946f; 
+    transform: scale(1.1); 
+}
+
+a {
+    text-decoration: none;
+}
+
+a h1 {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
